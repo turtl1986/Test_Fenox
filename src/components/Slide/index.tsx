@@ -1,2 +1,2 @@
-export {StikySlide} from './StikySlide'
+export {StickySlider} from './StickySlider'
 export {Slide} from './Slide'
