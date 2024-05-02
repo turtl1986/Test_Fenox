@@ -1,0 +1,22 @@
+.footer{
+    background-color: #E51C2F;
+    display: flex;
+    flex-direction: column;
+}
+
+.setting{
+    display: flex;
+
+}
+
+.social{
+display: flex;
+}
+
+.item{
+
+}
+
+.list{
+    display: flex;
+}
