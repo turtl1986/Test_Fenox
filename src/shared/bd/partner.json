@@ -1,0 +1,31 @@
+[
+    {
+        "id": 1,
+        "name": "Наименование",
+        "description":"Юридическое наименование",
+        "url":"https://learn.javascript.ru/array-methods"
+    },
+    {
+        "id": 2,
+        "name": "Наименование",
+        "description":"Юридическое наименование",
+        "url":"https://learn.javascript.ru/array-methods"
+    },
+    {
+        "id": 3,
+        "name": "Наименование",
+        "description":"Юридическое наименование",
+        "url":"https://learn.javascript.ru/array-methods"
+    },
+    {
+        "id": 4,
+        "name": "Наименование",
+        "description":"Юридическое наименование",
+        "url":"https://learn.javascript.ru/array-methods"
+    },
+    { "id": 5,
+    "name": "Наименование",
+    "description":"Юридическое наименование",
+    "url":"https://learn.javascript.ru/array-methods"
+    }
+]
