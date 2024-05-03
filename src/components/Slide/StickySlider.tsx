@@ -3,6 +3,8 @@ import Swiper from "react-id-swiper";
 import "swiper/css";
 import { Slide } from "./Slide";
 import product from '../../shared/bd/product.json'
+import gift from '../../assets/gift.jpg'
+import style from './stikySlider.module.css'
 
 
 
@@ -34,23 +36,23 @@ export const StickySlider = () => {
 
 
   return (
-    <>
+    <div className={style.wrraper}>
       <div ref={container}>
         <Swiper ref={swiperRef} {...params}>
           {product?.map((item, idx) => (
-              <div key={idx}>
+              <div  key={idx}>
                 <Slide translate={translate} transition={transition}>
-                  <div className="card-small">
-                    <div className="image">
+                  <div className={style.slide}>
+                    
                         <img
   src="https://example.com/image.jpg"
   onError={(e: React.SyntheticEvent<HTMLImageElement, Event>) => {
-    e.currentTarget.src = 'https://th.bing.com/th/id/OIP.zA2Hgwtlt6IJOfEGXzfwwwHaHa?rs=1&pid=ImgDetMain';
+    e.currentTarget.src = gift;
   }}
   alt="Дефолтное изображение"
 />
-                    </div>
-                    <p className="name">
+                    
+                    <p className={style.name}>
                       {item.name}
                     </p>
                   </div>
@@ -59,6 +61,6 @@ export const StickySlider = () => {
             ))}
         </Swiper>
       </div>
-    </>
+    </div>
   );
 };
