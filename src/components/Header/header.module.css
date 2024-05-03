@@ -28,10 +28,17 @@ padding: 20px 0px;
 .button{
     border-radius: 30px;
     background-color: #E51C2F;
+    border: 1px solid #E51C2F;
     color: #FFFFFF;
     text-align: center;
    padding: 10px 15px;
    font-family: "Bebas Neue", sans-serif;
    font-style: bold;
    font-size: 20px;
+   cursor: pointer;
+}
+
+.button:hover{
+    background-color:  #FFFFFF;
+    color: #E51C2F;
 }

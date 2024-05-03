@@ -1,0 +1,114 @@
+.container{
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 15px;
+    text-align: center;
+}
+
+.baner{
+    background-image: url(../../assets/baner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 728px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 25px;
+    padding: 25px;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.relout{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.title{
+    color:#1E2023;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 70px;
+    font-style: bold;
+    line-height: 1.5;
+    text-align: left;
+   }
+
+.text{
+    color:#1E2023;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.setting{
+    display: flex;
+    gap: 15px;
+    margin: 10px;
+}
+
+.button_white{
+    border-radius: 30px;
+    background-color: #FFFFFF;
+    color: #1E2023;
+    text-align: center;
+   padding:  15px 25px;
+   font-family: "Bebas Neue", sans-serif;
+   font-style: bold;
+   font-size: 20px;
+}
+
+.button_white:hover{
+    background-color:   #E51C2F;
+    color: #FFFFFF;
+}
+
+.button{
+    border-radius: 30px;
+    background-color: #E51C2F;
+    color: #FFFFFF;
+    text-align: center;
+   padding:  15px 25px;
+   font-family: "Bebas Neue", sans-serif;
+   font-style: bold;
+   font-size: 20px;
+   border: 1px solid #E51C2F;
+   cursor: pointer;
+}
+
+.button:hover{
+    background-color:  #FFFFFF;
+    color: #E51C2F;
+}
+
+.cards{
+    display: flex;
+    gap: 10px;
+}
+
+.card{
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 25px;
+    padding: 20px;
+    gap: 120px;
+    display: flex;
+    flex-direction: column;
+    max-width: 295px;
+}
+
+.name{
+    color:#E51C2F;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 32px;
+    font-style: bold;
+    text-align: left; 
+}
+
+.description{
+    color:#1E2023;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: left;   
+}
+
