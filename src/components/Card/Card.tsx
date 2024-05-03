@@ -1,7 +1,7 @@
 import style from './cart.module.css'
 import card from '../../shared/bd/card.json'
-import cards from '../../assets/card.jpg'
-import plus from '../../assets/plus.svg'
+import cards from '../../assets/image/card.jpg'
+import plus from '../../assets/icon/plus.svg'
 
 
 export function Card(){

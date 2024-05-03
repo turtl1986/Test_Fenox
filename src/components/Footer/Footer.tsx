@@ -1,10 +1,10 @@
 import styel from "./footer.module.css";
-import vk from "../../assets/vk.svg";
-import viber from "../../assets/viber.svg";
-import tg from "../../assets/tg.svg";
-import youtube from "../../assets/youtube.svg";
-import drive2 from "../../assets/drive2.ru.svg";
-import logo from "../../assets/logo_white.svg";
+import vk from "../../assets/icon/vk.svg";
+import viber from "../../assets/icon/viber.svg";
+import tg from "../../assets/icon/tg.svg";
+import youtube from "../../assets/icon/youtube.svg";
+import drive2 from "../../assets/icon/drive2.ru.svg";
+import logo from "../../assets/icon/logo_white.svg";
 
 export function Footer() {
   return (
@@ -29,24 +29,24 @@ export function Footer() {
                 <img src={drive2} alt="drive2.ru" />
               </a>
             </address>
-            <img src={logo} alt="FENOX" />
+            <a href="/"> <img src={logo} alt="FENOX" /></a>
           </div>
           <nav className={styel.nav}>
             <ul className={styel.list}>
               <li className={styel.item}>
-                <a href="#">Политика конфиденциальности</a>
+                <a href="/empty">Политика конфиденциальности</a>
               </li>
               <li className={styel.item}>
-                <a href="#">Пользовательское соглашение</a>
+                <a href="/empty">Пользовательское соглашение</a>
               </li>
               <li className={styel.item}>
-                <a href="#">Правила начисления бонусных баллов</a>
+                <a href="/empty">Правила начисления бонусных баллов</a>
               </li>
               <li className={styel.item}>
-                <a href="#">Договор оферты</a>
+                <a href="/empty">Договор оферты</a>
               </li>
               <li className={styel.item}>
-                <a href="#">Контакты</a>
+                <a href="/empty">Контакты</a>
               </li>
             </ul>
           </nav>

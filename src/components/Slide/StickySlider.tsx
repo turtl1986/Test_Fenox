@@ -2,10 +2,10 @@ import React, { useState, useEffect, useRef } from "react";
 import Swiper from "react-id-swiper";
 import "swiper/css";
 import { Slide } from "./Slide";
-import product from "../../shared/bd/product.json";
-import gift from "../../assets/gift.jpg";
-import style from "./stikySlider.module.css";
 import { Link } from "react-router-dom";
+import product from "../../shared/bd/product.json";
+import gift from "../../assets/image/gift.jpg";
+import style from "./stikySlider.module.css";
 
 export const StickySlider = () => {
   const [translate, setTranslate] = useState(0);
@@ -34,7 +34,7 @@ export const StickySlider = () => {
     <div className={style.wrraper}>
        <div className={style.caption}>
             <h2 className={style.title}>Каталог подарков</h2>
-            <Link className={style.link} to='/'> Посмотреть  все &gt; </Link>
+            <Link className={style.link} to='/empty'> Посмотреть  все &gt; </Link>
             </div>
       <div ref={container}>
         <Swiper ref={swiperRef} {...params}>

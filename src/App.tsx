@@ -1,7 +1,7 @@
 import { Routes, Route } from "react-router-dom";
-// import './App.css'
-import { MainLayout } from "./page/MainLayout";
-import { Home } from "./page/Home";
+import { MainLayout } from "./page";
+import { Home } from "./page";
+import { Empty } from "./page";
 
 function App() {
   
@@ -11,8 +11,8 @@ function App() {
     <Routes>
       <Route element={<MainLayout />}>
       <Route path="/" element={<Home />} />
+      <Route path="/empty" element={<Empty/>}/>
       </Route>
-     
     </Routes>
   </>
   )
