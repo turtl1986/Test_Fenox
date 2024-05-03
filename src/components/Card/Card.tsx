@@ -7,6 +7,7 @@ import plus from '../../assets/plus.svg'
 export function Card(){
     return(
         <div className={style.container}>
+            <h2 className={style.title}>Подарочные карты</h2>
 <div className={style.card__container}>
             {
                 card.map(item=>{

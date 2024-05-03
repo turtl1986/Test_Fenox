@@ -5,6 +5,23 @@
     text-align: center;
 }
 
+.caption{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-bottom: 50px;
+}
+
+.title{
+    color:#1E2023;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 50px;
+    font-style: bold;
+    line-height: 1.5;
+    text-align: center;
+   
+}
+
 .partner__container{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(375px, 1fr));
