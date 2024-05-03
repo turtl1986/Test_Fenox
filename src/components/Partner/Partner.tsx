@@ -1,34 +1,38 @@
 import style from './partner.module.css'
+import partners from '../../assets/partner.jpg'
 import partner from '../../shared/bd/partner.json'
 
 
 export function Partner(){
     return(
-        <div>
+        <div className={style.container}>
+            <div className={style.partner__container}>
             {
                 partner.map(item=>{
                     return (
-                        <div key={item.id}>
+                        <div key={item.id} className={style.card}>
                                                     <img
   src="https://example.com/image.jpg"
   onError={(e: React.SyntheticEvent<HTMLImageElement, Event>) => {
-    e.currentTarget.src = 'https://th.bing.com/th/id/OIP.zA2Hgwtlt6IJOfEGXzfwwwHaHa?rs=1&pid=ImgDetMain';
+    e.currentTarget.src = partners;
   }}
-  alt="Дефолтное изображение"
+  alt="partner"
 />
-<div>
-    <p>
+<div className={style.relotion}>
+    <p className={style.name}>
         {item.name}
     </p>
-    <p>
+    <p className={style.description}>
         {item.description}
     </p>
-    <a href={item.url}>сайт</a>
+    <a className={style.link} href={item.url}>сайт</a>
 </div>
                         </div>
                     )
                 })
             }
         </div>
+        </div>
+        
     )
 }

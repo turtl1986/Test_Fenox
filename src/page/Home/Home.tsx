@@ -7,11 +7,11 @@ import { StickySlider } from "../../components/Slide";
 export function Home(){
     return(
         <>
-         <Banner/>
-        <Bonus/>
+        <Banner/>
         <StickySlider/>
         <Card/>
         <Partner/>
+        <Bonus/>
         </>
        
     )

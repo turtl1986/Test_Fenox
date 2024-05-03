@@ -1,3 +1,7 @@
+.footer{
+    background-color: #E51C2F;
+}
+
 .container {
     max-width: 1600px;
     margin: 0 auto;
@@ -5,25 +9,35 @@
     text-align: center;
   }
 
-.footer{
-    background-color: #E51C2F;
+  .footer__container{
     display: flex;
     flex-direction: column;
-}
+    gap: 15px;
+  }
 
 .setting{
     display: flex;
+    justify-content: space-between;
+    align-items: center;
 
 }
 
 .social{
 display: flex;
+gap: 10px;
 }
 
-.item{
-
-}
 
 .list{
     display: flex;
+    gap: 20px;
+    align-items: center;
+    text-align: center;
+}
+
+.item{
+    color:#FFFFFF;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
 }

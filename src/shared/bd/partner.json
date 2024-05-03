@@ -27,5 +27,22 @@
     "name": "Наименование",
     "description":"Юридическое наименование",
     "url":"https://learn.javascript.ru/array-methods"
+    },
+    {
+        "id": 6,
+        "name": "Наименование",
+        "description":"Юридическое наименование",
+        "url":"https://learn.javascript.ru/array-methods"
+    },
+    {
+        "id": 7,
+        "name": "Наименование",
+        "description":"Юридическое наименование",
+        "url":"https://learn.javascript.ru/array-methods"
+    },
+    { "id": 8,
+    "name": "Наименование",
+    "description":"Юридическое наименование",
+    "url":"https://learn.javascript.ru/array-methods"
     }
 ]
