@@ -1,1 +1,1 @@
-export {Baner} from './Banner'
+export {Baner} from './Baner'
